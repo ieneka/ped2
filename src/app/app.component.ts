@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app-hola';
+  public ped: string = 'Prueba de Evaluación a Distancia número 2'
+  public title1: string = 'Tarea 1';
+  public title2: string = 'Tarea 2';
+
+  //NGMODEL
+  public one: number = 0;
+  public two: number = 0;
+
+  constructor() { }
+
 }
